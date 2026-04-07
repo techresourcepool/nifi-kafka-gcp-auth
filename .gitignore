@@ -1,0 +1,18 @@
+# Build output
+target/
+*.nar
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Node (prettier tooling)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build logs
+build-output.txt

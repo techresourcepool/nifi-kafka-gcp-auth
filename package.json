@@ -1,0 +1,10 @@
+{
+    "name": "nifi-kafka-gcp-auth-bundle",
+    "version": "2.8.0",
+    "description": "Apache NiFi NAR providing GCP OAuth2 access token support for Google APIs and GCP Managed Kafka (SASL/OAUTHBEARER) via Application Default Credentials (ADC) and Workload Identity Federation (WIF).",
+    "author": "amonteil",
+    "devDependencies": {
+        "@prettier/plugin-xml": "^3.4.1",
+        "prettier-plugin-java": "^2.6.7"
+    }
+}
