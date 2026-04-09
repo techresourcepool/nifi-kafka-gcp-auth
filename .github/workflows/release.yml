@@ -31,7 +31,9 @@ jobs:
           cache: maven
 
       - name: Build NAR with Maven
-        run: ./mvnw package -DskipTests --no-transfer-progress
+                run: |
+                          chmod +x mvnw
+                                    ./mvnw package -DskipTests --no-transfer-progress
 
       - name: Locate NAR file
         id: find_nar
